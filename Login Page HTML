@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./Instgram.png" />
+    <link rel="stylesheet" href="./Styles_login.css" />
+    <script defer src="./Script.js"></script>
+    <title>Instagram</title>
+  </head>
+  <body>
+    <section>
+    <div class="container">
+      <div class="left-section">
+        <img src="./mobileImage.jpeg" alt="" />
+      </div>
+      <div class="right-section">
+        <div class="login-box">
+          <img src="./Insta.png" alt="" class="instaTextLogo" />
+          <input type="text" class="ch1" placeholder="Phone number, username, or email">
+            
+          <input type="password" class="ch2" placeholder="Password" />
+
+          
+          <a href="./index_1.html"><input type="submit" value="Login" class="login-btn"></a>
+          <div class="divider">
+            <hr class="line" />
+            <p>OR</p>
+            <hr class="line" />
+          </div>
+
+          <div class="login-with-facebook">
+            <img src="./Facebook_logo.jpg" alt="" class="fb-img" />
+            <a href="#" class="facebook-login">Log in with Facebook</a>
+          </div>
+
+          <div>
+            <a href="#" class="forgot-password">Forgot password?</a>
+          </div>
+        </div>
+        <div class="signup-box">
+          <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+        <div class="download-section">
+          <p>Get the app</p>
+
+          <div class="app-buttons">
+            <img src="./playstore.png" alt="" class="app-btn"/>
+            <img src="./Microsoft.png" alt="" class="app-btn" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <span>Meta</span>
+        <span>About</span>
+        <span> Blog</span>
+        <span> Jobs</span>
+        <span> Help </span>
+        <span> API </span>
+        <span> Privacy </span>
+        <span> Locations </span>
+        <span> Instagram Lite </span>
+        <span> Threads </span>
+        <span> Contact Uploading & Non-Users </span>
+        <span> Meta Verified </span>
+        <select>
+            <option>English</option>
+            <option>Kannada</option>
+            <option>Hindi</option>
+        </select>
+        <spam style="cursor: auto;"> © 2024 Instagram from Meta</span>
+    </div>
+    </section>
+  </body>
+</html>
